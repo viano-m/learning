@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Roboto:ital,wght@1,300&display=swap');
+
+ *{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+ }
+
+ body{
+    font-family: Robo, sans-serif;
+ }
+
+ #countDownTitle{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+ }
+
+ #countdownTimer, #dateTimeText{
+    display: flex;
+    justify-content: center;
+    background-color: #04aa6d;
+    color: white;
+ }
+
+ #countdownTimer div{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 5px;
+ }
+
+ #countdownTimer span{
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+ }
+
+
+ 
+
+
